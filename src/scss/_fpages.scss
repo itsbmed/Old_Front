@@ -1,0 +1,47 @@
+.FPages{
+    padding: 3%;
+    .fpage{
+      
+        h1{
+            text-align: center;
+        }
+        .back{
+            text-align: center;
+        }
+        .dbtnchose{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 6%;
+                .btnchose{
+                    padding: 2%;
+                    font-size: 1.2vw;
+                    border: 1px solid #2ecc71;
+                    text-align: center;
+                    border-radius: 15px;
+                    display: block;
+                    width: 250px;
+                    margin-bottom: 2%;
+                }
+                .btnchose:hover{
+                    cursor: pointer;
+                    box-shadow: 0 0 10px #19875461;
+                    background: #2ecc71;
+                    color: white;
+                    
+                }
+                a{
+                    align-self: center;
+                    color: #2ecc71!important;
+                    font-size: 3.2vw !important;
+                }
+                a:hover{
+                    transform: scale(1.1);
+                }
+              
+            }
+            
+    }
+    }
+   
